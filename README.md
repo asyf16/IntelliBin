@@ -59,5 +59,22 @@ In a short span of 24 hours, we are proud to:
 - How to connect a MongoDB database to create user authentification
 - How to use global state variables in Node.js and React.js
 
+
+# 🌳 Importance of Recycling 🍀
+- Conserves natural resources by reusing materials
+- Requires less energy compared to using virgin materials, decreasing greenhouse gas emissions
+- Reduces the amount of waste sent to landfills,
+- Decreasesdisruption to ecosystems and habitats
+
+# 👍How Intellibin helps 👌
+**Efficient Sorting:** Intellibin utilizes AI technology to efficiently sort recyclables from non-recyclables. This ensures that the right materials go to the appropriate recycling streams.
+
+**Increased Recycling Rates:** With Intellibin making recycling more user-friendly and efficient, it has the potential to increase recycling rates. 
+
+**User Convenience:** By automating the sorting process, Intellibin eliminates the need for users to spend time sorting their waste manually. This convenience encourages more people to participate in recycling efforts. 
+
+**In summary:** Recycling is crucial for environmental sustainability, and Intellibin contributes by making the recycling process more accessible, convenient, and effective through AI-powered sorting technology.
+
+
 # 🔮 What's next for Intellibin⏭️
 The next steps for Intellibin include refining the current functionalities of our hack, along with exploring new features. First, we wish to expand the trash detection database, improving capabilities to accurately identify various items being tossed out. Next, we want to add more features such as detecting and warning the user of "unrecyclable" objects. For instance, Intellibin could notice whether the cap is still on a recyclable bottle and remind the user to remove the cap. In addition, the sensors could notice when there is still liquid or food in a recyclable item, and send a warning. Lastly, we would like to deploy our website so more users can use Intellibin and track their recycling statistics!
