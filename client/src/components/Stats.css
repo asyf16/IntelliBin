@@ -1,0 +1,42 @@
+.stats-wrap {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  h1{
+    text-align: center;
+  }
+  .stats-one {
+    width: 50%;
+    float: left;
+  }
+  
+  .stats-two {
+    width: 50%;
+    float: right;
+  }
+
+
+  @media (max-width: 950px) {
+    .stats-one {
+      display: table-footer-group;
+      width: 100%;
+    }
+    .stats-two {
+      display: table-header-group;
+      width: 100%;
+    }
+}
+
+.stats-container{
+    background: #9fab90;
+    border-radius: 3rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    font-family: "Nexa light";
+}
+
+.leaderboard{
+  background: #d5cec1;
+}
