@@ -4,6 +4,9 @@
 
 Have you ever faced a trashcan with a seemingly endless number of bins, each one marked with a different type of recycling? Have you ever held some trash in your hand, desperately wondering if it can be recycled? Have you ever been forced to sort your trash in your house, the different bins taking up space and being an eyesore? Inspired by this dilemma, we wanted to create a product that took all of the tedious decision-making out of your hands. Wouldn't it be nice to be able to mindlessly throw your trash in one place, and let AI handle the sorting for you? 
 
+# 📷 Video Demo 🎥
+https://www.youtube.com/watch?v=fziGIb2MTAk&t=7s
+
 # ♻️ What it does 🌱
 
 IntelliBin is an AI trashcan that handles your trash sorting for you! Simply place your trash onto our machine, and watch it be sorted automatically by IntelliBin's servo arm! Track your stats and learn more about recycling on our React.js website. 
