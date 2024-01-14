@@ -2,9 +2,11 @@
 
 Servo myServo;
 int servoPin = 3;
+int ledPin = 9; // Assuming the LED's anode is connected to digital pin 9
 
 void setup() {
   myServo.attach(servoPin);
+  pinMode(ledPin, OUTPUT); // Set the LED pin as an output
   Serial.begin(9600); // Start serial communication at 9600 baud rate
 }
 
@@ -12,13 +14,16 @@ void loop() {
   if (Serial.available() > 0) { // Check if serial input is available
     char input = Serial.read(); // Read the input
 
-    // Check the input character
-    if (input == 'o') { // Let's say 'o' for open or turn
+    if (input == 'O') { // 'O' for open/recycle
+      digitalWrite(ledPin, HIGH); // Turn on the LED
       myServo.write(90); // Turn servo to 90 degrees
       delay(1000); // Delay for demonstration purposes
-    } else if (input == 'c') { // 'c' for close or reset
-      myServo.write(0); // Reset servo to 0 degrees
+      myServo.write(0); // Return back to 0 degrees
+      digitalWrite(ledPin, LOW); // Turn off the LED
+    } else if (input == 'C') { // 'C' for close/non-recycle
+      myServo.write(180); // Move servo to 180 degrees
       delay(1000); // Delay for demonstration purposes
+      myServo.write(0); // Return back to 0 degrees
     }
   }
 }
