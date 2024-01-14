@@ -140,7 +140,7 @@ def detect_labels(taken_filepath):
         )
 
     # Serial communication
-    ser = serial.Serial('/dev/cu.usbmodem11301', 9600, timeout=1)  # Change 'COM3' to your Arduino's port
+    ser = serial.Serial('/dev/cu.usbmodem21301', 9600, timeout=1)  # Change 'COM3' to your Arduino's port
     time.sleep(2)  # Wait for connection to establish
 
     if action == "O":
