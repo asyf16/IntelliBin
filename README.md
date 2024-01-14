@@ -21,9 +21,13 @@ Website Portion: We used React.js to build the front end of the website, includi
 Google Vision API: 
 
 # 🌐 Website Features 💻
-![Login](https://github.com/asyf16/IntelliBin/assets/144833617/ef53d4b7-924a-46ac-923a-64bd3bff07ce)
+![Registration](https://github.com/asyf16/IntelliBin/assets/144833617/1bf42431-06a6-43a4-9668-d115c0ea5636)
 
-User login and registration with MongoDB
+User registration with MongoDB
+
+![Login](https://github.com/asyf16/IntelliBin/assets/144833617/532673c8-0506-406e-86aa-1c27ae63c753)
+
+User login with MongoDB
 
 ![User](https://github.com/asyf16/IntelliBin/assets/144833617/3aec997f-8f89-40c9-82c6-5d282057315f)
 
