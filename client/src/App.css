@@ -1,0 +1,89 @@
+body{
+  background: #e0ddd7;
+}
+
+@font-face {
+  font-family: "Main";   /*Can be any text*/
+  src: url("./fonts/Ransom.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nexa heavy";   /*Can be any text*/
+  src: url("./fonts/NH.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nexa light";   /*Can be any text*/
+  src: url("./fonts/NL.ttf") format("truetype");
+}
+
+
+h1{
+  font-family: "Main";
+  font-size: 60px;
+}
+
+.homescreen{
+  height:95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://cdn.discordapp.com/attachments/955687301822939206/1195940326947434636/IntelliBin_1.png?ex=65b5d139&is=65a35c39&hm=ffc47e4bd1bcc9a008973d5800f8d2c062b24af12b8b50836cd1244d0c133c4d&');
+}
+
+.homescreen button{
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+ margin-top:  40%;
+}
+button{
+  border: 2px solid #758266;
+  padding: .5em 1.5em;
+  border-radius: 50px;
+  background-color: #9fab90;
+  cursor: pointer;
+  font-family: 'Nexa light'; 
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: #b6c6a2;
+}
+
+h3{
+  font-family: "Nexa light";
+}
+
+.registerbutton{
+  margin:1rem;
+}
+
+form input {
+  height: 40px;
+  width: 30%;
+  margin-top: 10px;
+  border: 2px solid #a7a18e;
+  border-radius: 6rem;
+  padding-left: 1rem;
+  background: #cac3b7;
+  font-family: 'Nexa heavy';
+  color:  rgb(112, 101, 86);
+}
+
+form input:hover, form textarea:hover{
+  border: 2px solid rgb(129, 160, 117);
+}
+input::placeholder{
+  font-weight: bold;
+  font-family: 'Nexa heavy';
+  color:  rgb(171, 159, 144);
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form label {
+  color:  #575245;
+  font-family: 'Nexa heavy'
+}

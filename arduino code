@@ -1,0 +1,38 @@
+#include <Servo.h>
+
+Servo myServo;
+int servoPin = 5;
+int ledRecyclePin = 2;  // blue LED for recycling
+int ledGarbagePin = 3; // red LED for garbage
+
+void setup() {
+  myServo.attach(servoPin);
+  pinMode(ledRecyclePin, OUTPUT);
+  pinMode(ledGarbagePin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void keepLEDon(int ledPin) {
+  digitalWrite(ledPin, HIGH); // Turn LED on
+  delay(2000);                // Keep the LED on for 2 seconds
+  digitalWrite(ledPin, LOW);  // Turn LED off
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    char input = Serial.read(); 
+
+    if (input == 'O') { // 'O' for recycling
+      keepLEDon(ledRecyclePin); // Keep recycling LED on
+      myServo.write(180);       // Move servo to recycling position
+      delay(1000);             // Wait for a second
+      myServo.write(90);        // Move servo back to initial position
+    } 
+    else if (input == 'C') { // 'C' for garbage
+      keepLEDon(ledGarbagePin); // Keep garbage LED on
+      myServo.write(0);      // Move servo to garbage position
+      delay(1000);             // Wait for a second
+      myServo.write(90);        // Move servo back to initial position
+    }
+  }
+}
