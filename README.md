@@ -7,6 +7,8 @@ Have you ever faced a trashcan with a seemingly endless number of bins, each one
 # 📷 Video Demo 🎥
 https://www.youtube.com/watch?v=fziGIb2MTAk&t=7s
 
+![Demo](https://github.com/asyf16/IntelliBin/assets/144833617/ff9ceff2-b96d-4d62-b697-ba84d9ada3f7)
+
 # ♻️ What it does 🌱
 
 IntelliBin is an AI trashcan that handles your trash sorting for you! Simply place your trash onto our machine, and watch it be sorted automatically by IntelliBin's servo arm! Track your stats and learn more about recycling on our React.js website. 
