@@ -7,7 +7,7 @@ import time
 # Imports the Google Cloud client library
 from google.cloud import vision
 from datetime import datetime
-recycle = ["Aluminum can", "Plastic bottle", "Bottle", "Can", "Beverage Can", "Tin can", "Juicebox", "Carton", "Paper product", "Plastic"]
+recycle = ["Aluminum can", "Plastic bottle", "Bottle", "Can", "Beverage Can", "Tin can", "Juicebox", "Carton", "Paper product"]
 action = ""
 
 def captureimage():
@@ -140,7 +140,7 @@ def detect_labels(taken_filepath):
         )
 
     # Serial communication
-    ser = serial.Serial('/dev/cu.usbmodem21301', 9600, timeout=1)  # Change 'COM3' to your Arduino's port
+    ser = serial.Serial('/dev/cu.usbmodem21101', 9600, timeout=1)  # Change 'COM3' to your Arduino's port
     time.sleep(2)  # Wait for connection to establish
 
     if action == "O":
