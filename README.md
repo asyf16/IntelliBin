@@ -14,11 +14,11 @@ https://www.youtube.com/watch?v=fziGIb2MTAk&t=7s
 IntelliBin is an AI trashcan that handles your trash sorting for you! Simply place your trash onto our machine, and watch it be sorted automatically by IntelliBin's servo arm! Track your stats and learn more about recycling on our React.js website. 
 
 # 🛠️ How we built it 💬
-Arduino/C++ Portion: We used C++ code on the Arduino to control a servo motor and an LED based on serial input commands. Importing the servo library allows us to access functions that control the motor and turn on the LED colors. 
+Arduino/C++ Portion: We used C++ code on the Arduino to control a servo motor and an LED based on serial input commands. Importing the servo library allows us to access functions that control the motor and turn on the LED colors. We also used the Serial library in Python to take input from the main program and send it to the Arduino. The Arduino then sent binary data to the servo motor, correctly categorizing garbage items.
 
-Website Portion: We used React.js to build the front end of the website, including a profile section with user stats, a leaderboard, a shop to customize the user's avatar, and an information section. MongoDB was used to build the user registration and login process, storing usernames, emails, and passwords. 
+Website Portion: We used React.js to build the front end of the website, including a profile section with user stats, a leaderboard, a shop to customize the user's avatar, and an information section. MongoDB was used to build the user registration and login process, storing usernames, emails, and passwords.
 
-Google Vision API: 
+Google Vision API: In tandem with computer vision, we were able to take the camera input and feed it through the Vision API to interpret what was in front of us. Using this output, we could tell the servo motor which direction to turn based on whether it was recyclable or not, helping us sort which bins the object would be pushed into.
 
 # 🌐 Website Features 💻
 ![Registration](https://github.com/asyf16/IntelliBin/assets/144833617/1bf42431-06a6-43a4-9668-d115c0ea5636)

@@ -1,0 +1,32 @@
+.shop-container{
+    background: #9fab90;
+    border-radius: 3rem;
+    margin: 3rem;
+    padding: 2rem;
+    font-family: "Nexa light";
+}
+
+.shop-container img{
+    border-radius: 50%;
+    width: 25vw;
+}
+
+.shop-container h2{
+    font-family: "Nexa heavy";
+    margin: 1rem;
+    font-size: 35px;
+}
+
+.shop-container button{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: #6b7a5a;
+}
+
+p{
+    font-size: 20px;
+}
+
+.shop-container button:hover{
+    background-color: #b6c6a2;
+  }
