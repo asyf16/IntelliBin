@@ -5,13 +5,17 @@
 Have you ever faced a trashcan with a seemingly endless number of bins, each one marked with a different type of recycling? Have you ever held some trash in your hand, desperately wondering if it can be recycled? Have you ever been forced to sort your trash in your house, the different bins taking up space and being an eyesore? Inspired by this dilemma, we wanted to create a product that took all of the tedious decision-making out of your hands. Wouldn't it be nice to be able to mindlessly throw your trash in one place, and let AI handle the sorting for you? 
 
 # 📷 Video Demo 🎥
-https://www.youtube.com/watch?v=fziGIb2MTAk&t=7s
+[https://www.youtube.com/watch?v=fziGIb2MTAk&t=7s](https://www.youtube.com/watch?v=fziGIb2MTAk&t=7s)
+
+
+![IMG_8874](https://github.com/asyf16/IntelliBin/assets/144833617/aed5cd7f-2cff-4e3b-aac5-f0badbedd755)
+
 
 ![Demo](https://github.com/asyf16/IntelliBin/assets/144833617/ff9ceff2-b96d-4d62-b697-ba84d9ada3f7)
 
 # ♻️ What it does 🌱
 
-IntelliBin is an AI trashcan that handles your trash sorting for you! Simply place your trash onto our machine, and watch it be sorted automatically by IntelliBin's servo arm! Track your stats and learn more about recycling on our React.js website. 
+IntelliBin is an AI trashcan that handles your trash sorting for you! Simply place your trash onto our machine, and watch it be sorted automatically by IntelliBin's servo arm! Track your stats and learn more about recycling on our React.js website. https://Intellibin.Tech/
 
 # 🛠️ How we built it 💬
 Arduino/C++ Portion: We used C++ code on the Arduino to control a servo motor and an LED based on serial input commands. Importing the servo library allows us to access functions that control the motor and turn on the LED colors. We also used the Serial library in Python to take input from the main program and send it to the Arduino. The Arduino then sent binary data to the servo motor, correctly categorizing garbage items.
